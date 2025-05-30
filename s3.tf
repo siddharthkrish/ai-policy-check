@@ -5,7 +5,7 @@ provider "aws" {
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-unique-bucket-name" # Replace with a unique bucket name
+  bucket = "my-unique-bucket-name" # TODO: Replace with a unique bucket name
   acl    = "private"
 
   # Enable versioning (optional)
