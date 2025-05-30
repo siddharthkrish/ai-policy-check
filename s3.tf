@@ -1,4 +1,4 @@
-# Configure the AWS provider
+# Configure the AWS provider v1
 provider "aws" {
   region = "us-east-1" # Replace with your desired region
 }
